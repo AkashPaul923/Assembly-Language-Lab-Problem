@@ -1,4 +1,4 @@
-.MODEL SHALL
+.MODEL SMALL
 
 .STACK 100H
 
@@ -12,7 +12,7 @@ mov ah,1
 int 21h 
 mov bl,al
 
-mov ah, Eh 
+mov ah,0Eh 
 mov al,0Dh 
 int 10h 
 mov al,0Ah 
